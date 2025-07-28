@@ -19,7 +19,7 @@ const personschema = new mongoose.Schema({
     carsname: [
         {
             type:mongoose.Types.ObjectId,
-            ref:"Car"
+            ref:"Cars"
 
             
         }
