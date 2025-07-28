@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const carschema = new mongoose.Schema({
 
-    name:
+    carname:
     {
         type: String,
         lowercase: true,
